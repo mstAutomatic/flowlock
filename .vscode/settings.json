@@ -2,6 +2,6 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode", // ← 明示的にPrettier指定
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true // ← "explicit" よりも自動適用されやすい
+    "source.fixAll.eslint": "explicit"
   }
 }
